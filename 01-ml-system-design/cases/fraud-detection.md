@@ -5,6 +5,7 @@
 **Status:** In Progress
 **Date:** 2026-09
 **Related diagrams:** `../../diagrams/fraud-detection.png` _(not yet created)_
+**Related solutions:** [`solutions/aws/fraud-detection-solution.md`](../solutions/aws/fraud-detection-solution.md)
 
 ---
 
@@ -18,7 +19,7 @@
 **Non-functional:**
 - Latency: <100–300ms per decision (transaction can't hang)
 - Availability: 99.99%+ (system going down blocks all payments)
-- Throughput: 50M/day ≈ ~580 TPS average; design for 5–10x peak (Black Friday, lunch hour)
+- Throughput: 50M/day ≈ ~580 TPS average (Transactions Per Second); design for 5–10x peak (Black Friday, lunch hour)
 - Consistency: eventual consistency fine for model updates; the transaction decision itself must be strongly consistent (no double-approval)
 
 ## 2. Constraints
@@ -31,6 +32,9 @@
 _(in progress — working through feature-store read/sec estimation and storage implications)_
 
 ## 4. High-Level Architecture
+_(TODO)_
+
+### Architecture Diagram
 _(TODO)_
 
 ## 5. Data Flow

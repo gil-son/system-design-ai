@@ -163,7 +163,7 @@ flowchart TB
 
 </div>
 
-[Fraud detection architecture on AWS - file](https://github.com/gil-son/system-design-ai/tree/main/03-agentic-system-design/diagrams/01-ml-system-design/complete_fraud_detection_solution.drawio)
+[Fraud detection architecture on AWS - file](https://github.com/gil-son/system-design-ai/blob/main/diagrams/01-ml-system-design/complete_fraud_detection_solution.drawio)
 
 
 
